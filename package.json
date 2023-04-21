@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": false,
   "scripts": {
-    "postinstall": "prisma generate",
+    "postinstall": "prisma generate --schema=./src/prisma/schema.prisma",
     "dev": "vite dev --port=4000",
     "build": "vite build",
     "preview": "vite preview --port=4000",
